@@ -16,3 +16,14 @@ ReactDOM.render(
         </ol>
     </>, document.getElementById('root')
 );
+
+// Output:-
+
+// List of My 5 favorite Netflix Series - this is h1 element
+// Lost in Space is quite amazing - this is a p element
+
+// 1. Lost in space lost
+// 2. Dark
+// 3. Mr. Robot
+// 4. Chilling Adventure of Sabrina
+// 5. Titans
