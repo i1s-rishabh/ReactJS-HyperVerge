@@ -1,4 +1,4 @@
-In this directory, i'm going to craete a simple Greeting App in React.
+In this directory, i'm going to craete a simple Greeting App in React which will greet you accr to you machine time.
 
 
 React Challenge #3
