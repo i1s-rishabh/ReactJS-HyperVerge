@@ -1,0 +1,23 @@
+.heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(16, 15, 17);
+  text-shadow: -5px -5px 6px rgba(65, 65, 65, 0.6);
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery > img:hover {
+  border-radius: 5px;
+  box-shadow: -5px 5px 6px rgba(65, 65, 65, 0.6);
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
