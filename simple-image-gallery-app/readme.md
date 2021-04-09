@@ -1,0 +1,1 @@
+In this directory, I've created a quite easy and **Simple Image Gallery App** using react with amazing animation effects and one more amazing thing about this Image Gallery App, it'll give new images on every page reload. take a look and give me your valuable feedback 😁 
