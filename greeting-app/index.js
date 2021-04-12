@@ -28,5 +28,5 @@ ReactDOM.render(
             <h1>Hello Sir, <span style={cssStyle}> {greeting}</span></h1>
         </div>
     </>
-    , document.getElementById('root')
+    , document.getElementById('root') 
 );
