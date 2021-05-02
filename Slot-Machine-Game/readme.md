@@ -1,1 +1,1 @@
-In the directory, I've create a **Slot Machine Game** by React but it's munually by code means if you want change the slot-items then you can it only from the code not by the output screen.
+In the directory, I've created a **Slot Machine Game** by React but it's manually by code means if you want to change the slot items then you can change it only from the code, not by the output screen.
