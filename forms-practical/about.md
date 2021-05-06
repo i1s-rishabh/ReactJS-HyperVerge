@@ -1,0 +1,1 @@
+In the directory, I've created form it's basically created for the practical of forms in react. here in this app you'll find an input area and a heading and you will be able to render by the input box and submit button.
