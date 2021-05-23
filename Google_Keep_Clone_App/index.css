@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255, .87 );
+  }
+
+  body {
+    background: #202124;
+  }
+
+  .header {
+    border-bottom: 0.5px solid white;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+    margin: 4px;
+    padding-right: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  h1 {
+    display: inline-block;
+    padding-left: 4px;
+    font-size: 22px;
+    line-height: 54px;
+  }
+
+  .plus_sign {
+    color: red;
+  }
+
+  .btn {
+    color: rgba(255,255,255, .87 );
+    background: #202124
+  }
