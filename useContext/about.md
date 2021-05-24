@@ -1,0 +1,1 @@
+In this directory, I've practiced a useContext with example app and here, I got to know that useContext in quite easy than Context API because in Context API, It has multiple hierarchy levels that is quite confusing but with useContext it becomes very simple and easy.
