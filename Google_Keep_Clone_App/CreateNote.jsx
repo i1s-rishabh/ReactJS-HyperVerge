@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Button from "@material-ui/core/Button";
 import AddIcon from '@material-ui/icons/Add';
 
-const CreateNote = () => {
+const CreateNote = (props) => {
+
+    const [expand, setExpand] = useState(false);
 
     const [note, setNote] = useState({
         title: "",
@@ -17,7 +19,7 @@ const CreateNote = () => {
 
         const {name, value} = event.target;
 
-        setNote((prevDate) => {
+        setNote((prevData) => {
             return {
                 ...prevData,
                 [name]: value,
@@ -27,17 +29,32 @@ const CreateNote = () => {
 
     const addEvent = () => {
         props.passNote(note);
+        setNote({
+        title: "",
+        content: "",
+        });
+    };
+
+    const expandIt = () => {
+        setExpand(true);
+    };
+
+    const btoNormal = () => {
+        setExpand(false);
     };
 
     return(
         <>
-            <div className="main_note">
+            <div className="main_note" onDoubleClick={btoNormal}>
                 <form>
-                    <input type="text" name="title" value={note.title} onChange={InputEvent} placeholder="Title"  autoComplete="off"/>
-                    <textarea rows="" name="content" column=""  value={note.content} onChange={InputEvent} placeholder="Take a note..."></textarea>
-                    <Button onClick={addEvent} >
-                        <AddIcon className="plus_sign" />
-                    </Button>
+                    {expand ? <input type="text" name="title" value={note.title} onChange={InputEvent} placeholder="Title"  autoComplete="off"/> : null}
+                    <textarea rows="" name="content" column=""  value={note.content} onChange={InputEvent} placeholder="Take a note..." onClick={expandIt}></textarea>
+                    
+                    {expand ? (
+                        <Button onClick={addEvent} >
+                            <AddIcon className="plus_sign" />
+                        </Button>
+                    ) : null}
                 </form> 
             </div>
         </>
