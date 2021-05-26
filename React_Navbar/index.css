@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255, .87 );
+  }
+
+  body {
+    background: #202124;
+  }
+
+  .active_class {
+    color: aqua;
+    border-bottom: 1px solid aqua;
+  }
+
+  a {
+    text-decoration: none;
+  }
