@@ -1,0 +1,1 @@
+In this directory, I've learnt that we've a **Redirect** element which is seprate option for us at the place of error page - so if we don't want to sent the user on error page then we can use **Redirect** element to redirect the user on the desier page.
