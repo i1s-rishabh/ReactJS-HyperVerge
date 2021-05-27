@@ -1,0 +1,1 @@
+In this directory, I've created a website with beautiful UI and 404 page when user will enter wrong URL and used React Router to escape laxy loading so now it loads without reload the page every time.
